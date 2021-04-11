@@ -1,0 +1,39 @@
+* {
+    font-family: Calibri;
+    font-size: 17px;
+}
+body {
+    background-image: url("/image/covid19_lg.jpg");
+    background-repeat: repeat-y;
+    background-size: cover;
+}
+form {
+    text-align: center;
+}
+input {
+    margin: 0 20px 0 20px;
+}
+#submit-button {
+    height: 40px;
+    width: 80px;
+    background-color: rgba(38, 175, 255, 0.808);
+    color: rgb(255, 255, 255);
+    border: 0px;
+}
+.data-container {
+    display: flex;
+    flex-wrap: nowrap;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 60%;
+    height: 200px;
+    background-color: rgba(38, 175, 255, 0.692);
+    margin: 20px auto 20px auto;
+}
+.idv-data {
+    text-align: center;
+    font-size: 150%;
+    margin: auto;
+    color: rgb(236, 236, 236);
+}
